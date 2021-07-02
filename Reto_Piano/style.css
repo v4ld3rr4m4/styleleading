@@ -3,8 +3,7 @@
     --color-piano: #191919;
     --color-teclas: #FFFFFF;
 }
-
- body{
+body{
     background-color:var(--main-bg);
     display:flex;
     align-items:center;
@@ -45,12 +44,10 @@
     position:relative;
   }
     .base .bt div{
-   height:35px; 
+    height:35px; 
     width:16px;
       background: var(--color-piano);
   }
-  
   .base .bt .Nobg{
       background-color: transparent;
   }
-
