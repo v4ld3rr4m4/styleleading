@@ -1,0 +1,22 @@
+Guía de Estilos
+
+Detalles de los colores están creados en las variables CSS, mira el archivo "style.css".
+
+/*Global*/
+/* Propiedades Personalizadas */
+:root{
+    --main-bg-color: #293462;
+    --froggy-top-color: #FE5F55;
+    --froggy-bottom-color: #A64942;
+    --froggy-eyes-color: #FFF1C1;
+}
+La imagen "resultado_final.png" es la referencia visual de cómo debe quedar al final el proyecto.
+
+El dibujo ocupa un espacio de:
+width: 150px;
+height: 150px;
+
+Si tienes dudas adiconales me puedes contactar a: jair@cooltimedia.com
+
+Gracias por participar.
+Te deseamos los mejor.

@@ -1,0 +1,86 @@
+:root{
+    --main-bg-color: #293462;
+    --froggy-top-color: #FE5F55;
+    --froggy-bottom-color: #A64942;
+    --froggy-eyes-color: #FFF1C1;
+}
+body{
+background-color:var(--main-bg-color);
+display: flex;
+width:100%;
+height:100vh;
+justify-content:center;
+align-items: center;
+}
+
+.canvas{
+position: relative;
+width:150px;
+height:150px;
+border: solid 0px red;
+}
+.eyes{
+position: absolute;
+width: 120px;
+height: 50px;
+display:flex;
+justify-content:space-between;
+align-items: center;
+left:15px;
+}
+.eye1{
+border-radius: 50%;
+background-color:var(--froggy-top-color);
+width:50px;
+height:50px;
+display:flex;
+justify-content:center;
+align-items: center;
+}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
+.eye2{
+border-radius: 50%;
+background-color:var(--froggy-eyes-color);
+width:30px;
+height:30px;
+display:flex;
+justify-content:center;
+align-items: center;
+}	
+.eye3{
+border-radius: 50%;
+background-color:var(--main-bg-color);
+width:10px;
+height:10px;
+}
+.face
+{
+position: absolute;
+border-radius: 120px;
+background-color:var(--froggy-top-color);
+width:150px;
+height:70px;
+top:25px;
+border: solid 0px var(--froggy-bottom-color);
+border-bottom-width: 30px;
+}#
+.nariz
+{
+position: absolute;
+width: 30px;
+height: 50px;
+display:flex;
+justify-content:space-between;
+align-items: center;
+left:45px;
+top:55px;
+}
+
+
+.otro{
+background-color: #f48989;
+width: 300px;
+height: 160px;
+position: absolute;
+top:120px;
+clip-path:polygon(0 0,50% 50%,100% 0,100% 100% ,50% 50%,0 100%);
+}
